@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Seat Booking</title>
+ <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="ticket.css">
+  <script type="text/javascript">
+  if(! count) {
+var count = 0;
+function change()
+{
+document.getElementById("b").value=" You have Selected Seats: " +count +". Click on Proceed for Payment"
+
+
+var y = document.createElement("a");
+var t = document.createTextNode("Proceed");
+y.setAttribute("class","btn btn-info");
+
+y.setAttribute("href","payment.html");
+y.setAttribute("id","u");
+y.appendChild(t);
+document.body.appendChild(y);
+}
+}
+ function incrementCount(){
+        count++;
+      }
+
+    </script>
+  </head>
+<body bgcolor=" gray">
+  
+  <div class="plane">
+    <div class="cockpit">
+      <h1>Please select seat</h1>
+    </div>
+    <div class="exit exit--front fuselage">
+
+  </div>
+    <ol class="cabin fuselage">
+      <li class="row row--1">
+        <ol class="seats" type="A">
+          <li class="seat">
+            <input type="checkbox" id="1A" onclick="incrementCount()"/>
+            <label for="1A" > 1A </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="1B" onclick="incrementCount()" />
+            <label for="1B">1B</label>
+          </li>
+          <li class="seat m">
+            <input type="checkbox" id="1C" onclick="incrementCount()" />
+            <label for="1C">1C</label>
+          </li>
+          <li class="seat ">
+            <input type="checkbox" id="1D" onclick="incrementCount()" />
+            <label for="1D">1D</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="1E" onclick="incrementCount()"/>
+            <label for="1E" > 1E </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="1F" class="c" onclick="incrementCount()"/>
+            <label for="1F" > 1F </label>
+          </li>
+
+        </ol>
+      </li>
+      <li class="row row--2">
+        <ol class="seats" type="A">
+          <li class="seat">
+            <input type="checkbox" id="2A" onclick="incrementCount()" />
+            <label for="2A">2A</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="2B" onclick="incrementCount()" />
+            <label for="2B">2B</label>
+          </li>
+          <li class="seat m">
+            <input type="checkbox" id="2C" onclick="incrementCount()" />
+            <label for="2C">2C</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="2D" onclick="incrementCount()" />
+            <label for="2D">2D</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="2E" onclick="incrementCount()" />
+            <label for="2E" > 2E </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="2F onclick="incrementCount()"" />
+            <label for="2F" > 2F </label>
+          </li>
+        </ol>
+      </li>
+      <li class="row row--3">
+        <ol class="seats" type="A">
+          <li class="seat">
+            <input type="checkbox" id="3A" onclick="incrementCount()" />
+            <label for="3A">3A</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="3B" onclick="incrementCount()" />
+            <label for="3B">3B</label>
+          </li>
+          <li class="seat m">
+            <input type="checkbox" id="3C" onclick="incrementCount()" />
+            <label for="3C">3C</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="3D" onclick="incrementCount()" />
+            <label for="3D">3D</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="3E" onclick="incrementCount()" />
+            <label for="3E" > 3E </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="3F" onclick="incrementCount()" />
+            <label for="3F" > 3F </label>
+          </li>
+       </ol>
+      </li>
+      <li class="row row--4">
+        <ol class="seats" type="A">
+          <li class="seat">
+            <input type="checkbox" id="4A" onclick="incrementCount()" />
+            <label for="4A">4A</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="4B" onclick="incrementCount()" />
+            <label for="4B">4B</label>
+          </li>
+          <li class="seat m">
+            <input type="checkbox" id="4C" onclick="incrementCount()" />
+            <label for="4C">4C</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="4D" onclick="incrementCount()" />
+            <label for="4D">4D</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="4E" onclick="incrementCount()" />
+            <label for="4E" > 4E </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="4F" onclick="incrementCount()" />
+            <label for="4F" > 4F </label>
+          </li>
+       </ol>
+      </li>
+      <li class="row row--5">
+        <ol class="seats" type="A">
+          <li class="seat">
+            <input type="checkbox" id="5A" onclick="incrementCount()" />
+            <label for="5A">5A</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="5B" onclick="incrementCount()" />
+            <label for="5B">5B</label>
+          </li>
+          <li class="seat m">
+            <input type="checkbox" id="5C" onclick="incrementCount()" />
+            <label for="5C">5C</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="5D" onclick="incrementCount()" />
+            <label for="5D">5D</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="5E" onclick="incrementCount()" />
+            <label for="5E" > 5E </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="5F" onclick="incrementCount()" />
+            <label for="5F" > 5F </label>
+          </li>
+       </ol>
+      </li>
+      <li class="row row--6">
+        <ol class="seats" type="A">
+          <li class="seat">
+            <input type="checkbox" id="6A" onclick="incrementCount()" />
+            <label for="6A">6A</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="6B" onclick="incrementCount()" />
+            <label for="6B">6B</label>
+          </li>
+          <li class="seat m">
+            <input type="checkbox" id="6C" onclick="incrementCount()" />
+            <label for="6C">6C</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="6D" onclick="incrementCount()" />
+            <label for="6D">6D</label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="6E" onclick="incrementCount()" />
+            <label for="6E" > 6E </label>
+          </li>
+          <li class="seat">
+            <input type="checkbox" id="6F" onclick="incrementCount()" />
+            <label for="6F" > 6F </label>
+          </li>
+       </ol>
+     </li>
+  </ol>
+    <div class="exit exit--back fuselage">
+</div>
+
+<div>
+<input type="button"  id="b" value="Proceed" onclick="change()"/>
+
+</div>
+
+
+<p id="demo"> </p>
+</body>
+</html>
